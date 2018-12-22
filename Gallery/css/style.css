@@ -1,0 +1,71 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.img-thumbnail {
+    width: 45%;
+}
+
+.gallery {
+    margin: 10px 50px;
+}
+
+.gallery img {
+    padding: 3px;
+    display: inline-block;
+}
+
+.gallery img:hover {
+    transition: 0.5s;
+    transform: rotate(10deg);
+}
+
+.galleryWrapper {
+    text-align: center;
+}
+
+.img-big {
+    max-width: 50%;
+}
+
+h1 {
+    padding-top: 0.5em;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.spotlightText {
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 10px 50px;
+}
+
+.lb-image {
+    width: 100vw !important;
+    height: auto !important;
+}
+
+.instagramPost {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+/* Tablet/Desktop overrides */
+@media(min-device-width: 681px) {
+
+    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+    .lb-image {
+        width: auto !important;
+        height: 85vh !important;
+    }
+
+    .img-thumbnail {
+        width: 25%;
+    }
+}
+
+@media(min-device-width: 729px) {}
